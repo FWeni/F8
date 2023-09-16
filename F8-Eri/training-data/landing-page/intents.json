@@ -1,0 +1,32 @@
+{"intents":  [
+  {
+    "tag": "greeting",
+    "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+    "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+    "context_set": ""
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye"],
+    "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."],
+    "context_set": ""
+  },
+  {
+    "tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"],
+    "context_set": ""
+  },
+  {
+    "tag": "tool-enquiry",
+    "patterns": ["What is F8?", "What's this?","How can I use this?"],
+    "responses": ["F8 is AI integrated application, that will help learners start working towards their careers much sooner.", "F8 is a tool that guides learners into creating career roadmaps, by monitoring GPA scores and offer suggestions for the learner.","You can simply interact with Eri, by asking questions. She will provide responses. Note: Please avoid abbreviations."],
+    "context_set": ""
+  },
+  {
+    "tag": "next-step",
+    "patterns": ["Sounds good, where do I sign up?", "Where can I sign up?", "Can you sign me you?"],
+    "responses": ["Sure, just click on the sign up button below.", "Of course, click on the sign up button below.","Definitely, click sign up button below."],
+    "context_set": ""
+  }
+]}

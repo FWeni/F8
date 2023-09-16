@@ -1,0 +1,64 @@
+{"intents":  [
+  {
+    "tag": "greeting",
+    "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+    "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+    "context_set": ""
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye"],
+    "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."],
+    "context_set": ""
+  },
+  {
+    "tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"],
+    "context_set": ""
+  },
+  {
+    "tag": "first-qs",
+    "patterns": [
+      "Can F8 help me?",
+      "Help",
+      "I have signed up, what now?"
+    ],
+    "responses": [
+      "Let's see. \n What grade are you in currently?",
+      "Don't panic, Eri is here.\n Tell me, what grade are you in now?",
+      "Let's first establish a few things. What grade are you currently in?"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "get-grade",
+    "patterns": ["I am in grade 9.", "Grade 9", "9", "Nine"],
+    "responses": ["Awesome! \n This is one of the important phases of your schooling.\n You will have to start thinking about the career you want and subjects to take from high school.\n Fear not Eri is here to help! \n Do you know what career you want to go into after studying?"],
+    "context_set": ""
+  },
+  {
+    "tag": "yes",
+    "patterns": ["Yes.", "Yeah", "Of course", "Definitely"],
+    "responses": ["Great, what is the career?"],
+    "context_set": ""
+  },
+  {
+    "tag": "career",
+    "patterns": ["Computer Science", "Computer Scientist", "Computer Engineering"],
+    "responses": ["Nice!\n Well you can register for this course at most universities in South Africa. \n you will need at least 30 Admission Point Score(aps).\nLevel 6 in Mathematics\n Level 5 in English \n Level 4 in Life Orientation."],
+    "context_set": ""
+  },
+  {
+    "tag": "no",
+    "patterns": ["Not sure.", "Maybe", "Perhaps", "No.", "Nope", "None"],
+    "responses": ["Not to worry. \n Well need you to enter your latest report results."],
+    "context_set": ""
+  },
+  {
+    "tag": "accessed-results",
+    "patterns": [""],
+    "responses": [],
+    "context_set": ""
+  }
+]}
